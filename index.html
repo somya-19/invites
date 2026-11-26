@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D Wedding Invite Videos Starring You | Somya &amp; Mayank Studio</title>
+<meta name="description" content="Personalised 3D animated wedding invitation videos where the bride and groom's own faces become the characters. Made in Bengaluru. From ₹999.">
+<meta property="og:title" content="Your Wedding Invite, Starring YOU 💍">
+<meta property="og:description" content="3D animated wedding invite videos made from your photos. Ready for WhatsApp. From ₹999.">
+<meta property="og:image" content="s3.jpg">
+<meta name="theme-color" content="#4a0a16">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --maroon:#4a0a16; --maroon-2:#6b1426; --wine:#2a050c;
+    --gold:#ffd278; --gold-2:#e8b25a; --cream:#fff6e6; --muted:#e9cfb8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;color:var(--cream);background:var(--wine);
+       background-image:radial-gradient(ellipse at top,#6b1426 0%,#3a0711 45%,#1c0307 100%);
+       background-attachment:fixed;line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+  .script{font-family:"Great Vibes",Gabriola,Georgia,serif;font-weight:400;color:var(--gold)}
+  .serif{font-family:"Cormorant Garamond",Georgia,serif}
+  h2{font-family:"Great Vibes",Gabriola,Georgia,serif;font-weight:400;color:var(--gold);font-size:clamp(44px,8vw,64px);text-align:center;line-height:1.1}
+  .sub{text-align:center;color:var(--muted);margin:6px auto 32px;max-width:560px}
+  section{padding:64px 0}
+  .divider{height:1px;max-width:220px;margin:0 auto;background:linear-gradient(90deg,transparent,var(--gold-2),transparent)}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:10;background:rgba(42,5,12,.82);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,210,120,.18)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+  .logo{font-family:"Great Vibes",Gabriola,Georgia,serif;font-size:28px;color:var(--gold);text-decoration:none}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;font-weight:600;text-decoration:none;
+       padding:14px 26px;font-size:16px;transition:transform .15s ease,box-shadow .15s ease;cursor:pointer;border:0}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-gold{background:linear-gradient(180deg,var(--gold),var(--gold-2));color:var(--maroon);box-shadow:0 8px 24px rgba(232,178,90,.25)}
+  .btn-ghost{border:1.5px solid var(--gold);color:var(--gold)}
+  .btn-sm{padding:9px 18px;font-size:14px}
+
+  /* hero */
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:48px;padding-bottom:24px}
+  .eyebrow{display:inline-block;background:rgba(255,210,120,.12);border:1px solid rgba(255,210,120,.35);color:var(--gold);
+           border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;letter-spacing:.04em}
+  .hero h1{font-family:"Great Vibes",Gabriola,Georgia,serif;font-weight:400;color:var(--gold);font-size:clamp(54px,9vw,88px);line-height:1.02;margin:18px 0 8px}
+  .hero h1 span{color:var(--cream)}
+  .hero p.lead{font-family:"Cormorant Garamond",serif;font-size:clamp(21px,3.4vw,26px);color:var(--cream);max-width:480px}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+  .price-hint{margin-top:14px;color:var(--muted);font-size:14px}
+  .phone{position:relative;justify-self:center;width:min(320px,82vw);aspect-ratio:9/16;border-radius:34px;padding:10px;
+         background:linear-gradient(160deg,var(--gold),#8a5a1c);box-shadow:0 30px 80px rgba(0,0,0,.55)}
+  .phone video{width:100%;height:100%;object-fit:cover;border-radius:26px;display:block;background:#000}
+  .sound{position:absolute;bottom:22px;right:22px;background:rgba(0,0,0,.6);color:#fff;border:1px solid rgba(255,255,255,.4);
+         border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer}
+
+  /* features */
+  .feats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .feat{background:rgba(255,246,230,.05);border:1px solid rgba(255,210,120,.22);border-radius:20px;padding:22px}
+  .feat .ic{font-size:28px}
+  .feat h3{font-family:"Cormorant Garamond",serif;font-size:23px;color:var(--gold);margin:8px 0 4px}
+  .feat p{font-size:14.5px;color:var(--muted)}
+
+  /* gallery */
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .shot{position:relative;border-radius:18px;overflow:hidden;border:2px solid var(--gold-2);aspect-ratio:9/16;box-shadow:0 14px 36px rgba(0,0,0,.45)}
+  .shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+  .shot:hover img{transform:scale(1.05)}
+  .shot span{position:absolute;left:0;right:0;bottom:0;padding:28px 10px 10px;text-align:center;font-family:"Great Vibes",Gabriola,Georgia,serif;
+             font-size:28px;color:var(--cream);background:linear-gradient(transparent,rgba(30,3,8,.85))}
+
+  /* pricing */
+  .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+  .plan{position:relative;background:rgba(42,5,12,.65);border:1.5px solid rgba(255,210,120,.4);border-radius:24px;padding:28px 24px;display:flex;flex-direction:column}
+  .plan.pop{background:linear-gradient(180deg,#6b1426,#3e0812);border:2.5px solid var(--gold);transform:translateY(-8px)}
+  .tag{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--maroon);font-weight:700;font-size:12px;
+       letter-spacing:.06em;padding:5px 14px;border-radius:999px;white-space:nowrap}
+  .plan h3{font-family:"Cormorant Garamond",serif;font-size:27px;color:var(--gold)}
+  .price{font-size:42px;font-weight:700;margin:8px 0 2px}
+  .price small{font-size:14px;font-weight:500;color:var(--muted)}
+  .plan ul{list-style:none;margin:16px 0 22px;flex:1}
+  .plan li{padding:7px 0 7px 26px;position:relative;font-size:15px;border-bottom:1px dashed rgba(255,210,120,.14)}
+  .plan li::before{content:"✦";position:absolute;left:2px;color:var(--gold)}
+  .offer{margin:30px auto 0;max-width:640px;text-align:center;background:linear-gradient(90deg,rgba(255,210,120,.18),rgba(255,210,120,.08));
+         border:1px solid var(--gold-2);border-radius:18px;padding:16px 20px;font-weight:600}
+  .offer b{color:var(--gold)}
+
+  /* steps */
+  .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;counter-reset:s}
+  .step{text-align:center;padding:8px}
+  .step .n{width:58px;height:58px;margin:0 auto 12px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--maroon);
+           font-family:"Cormorant Garamond",serif;font-weight:700;font-size:30px}
+  .step h4{font-family:"Cormorant Garamond",serif;font-size:21px;color:var(--gold)}
+  .step p{font-size:14px;color:var(--muted)}
+
+  /* faq */
+  .faq{max-width:720px;margin:0 auto}
+  details{border:1px solid rgba(255,210,120,.25);border-radius:16px;padding:16px 20px;margin-bottom:12px;background:rgba(255,246,230,.04)}
+  summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+  summary::after{content:"+";color:var(--gold);font-size:22px;line-height:1}
+  details[open] summary::after{content:"–"}
+  details p{margin-top:10px;color:var(--muted);font-size:15px}
+
+  /* final cta */
+  .final{text-align:center;padding:72px 0 96px}
+  .final p{color:var(--muted);margin:8px 0 26px}
+  footer{border-top:1px solid rgba(255,210,120,.18);padding:22px 0 90px;text-align:center;font-size:13px;color:var(--muted)}
+  .float{position:fixed;left:50%;transform:translateX(-50%);bottom:16px;z-index:20;display:none;width:calc(100% - 32px);max-width:420px}
+
+  @media (max-width:860px){
+    .hero .wrap{grid-template-columns:1fr;text-align:center;gap:32px;padding-top:32px}
+    .hero p.lead{margin:0 auto}
+    .phone{order:-1;width:min(260px,70vw)}
+    .hero h1{margin-top:12px}
+    .cta-row{justify-content:center}
+    .feats{grid-template-columns:1fr 1fr}
+    .gallery{grid-template-columns:1fr 1fr}
+    .plans{grid-template-columns:1fr;max-width:420px;margin:0 auto}
+    .plan.pop{transform:none}
+    .steps{grid-template-columns:1fr;max-width:420px;margin:0 auto}
+    .step{display:grid;grid-template-columns:58px 1fr;gap:14px;text-align:left;align-items:center}
+    .step .n{margin:0}
+    .float{display:flex}
+    nav .btn{display:none}
+    section{padding:52px 0}
+  }
+  @media (max-width:380px){ .feats{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#">Somya &amp; Mayank Studio</a>
+    <a class="btn btn-gold btn-sm" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Book now</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">💍 3D ANIMATED WEDDING INVITES · BENGALURU</span>
+      <h1>Your wedding invite, <span>starring you</span></h1>
+      <p class="lead">We turn your photos into 3D animated characters and create an invitation video your guests will actually watch and share.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">💌 Book on Instagram</a>
+        <a class="btn btn-ghost" href="#pricing">See prices</a>
+      </div>
+      <p class="price-hint">From ₹999 · First 5 couples get 50% off</p>
+    </div>
+    <div class="phone">
+      <video id="vid" src="invite.mp4" poster="poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <button class="sound" id="snd" type="button">🔇 Tap for sound</button>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Not a slideshow</h2>
+    <p class="sub">A real little movie of your wedding, made just for you.</p>
+    <div class="feats">
+      <div class="feat"><div class="ic">🧑‍🤝‍🧑</div><h3>Your faces</h3><p>You and your partner become 3D movie-style characters, made from your photos.</p></div>
+      <div class="feat"><div class="ic">🎬</div><h3>Real animation</h3><p>Falling petals, haldi fun, the varmala moment and a namaste ending.</p></div>
+      <div class="feat"><div class="ic">🎵</div><h3>Original music</h3><p>Background music made for your video, with no copyright problems on WhatsApp or Instagram.</p></div>
+      <div class="feat"><div class="ic">📲</div><h3>WhatsApp-ready</h3><p>Vertical HD video with your names, events, dates and venue, in English or Hindi.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="samples">
+  <div class="wrap">
+    <h2>Every event, animated</h2>
+    <p class="sub">Scenes from our sample invite. Your video uses your own faces, outfits and events.</p>
+    <div class="gallery">
+      <div class="shot"><img src="s1.jpg" alt="Save the date scene under a floral arch" loading="lazy"><span>Save the Date</span></div>
+      <div class="shot"><img src="s2.jpg" alt="Haldi ceremony scene" loading="lazy"><span>Haldi</span></div>
+      <div class="shot"><img src="s3.jpg" alt="Varmala exchange scene" loading="lazy"><span>Varmala</span></div>
+      <div class="shot"><img src="s4.jpg" alt="Couple doing namaste in the invitation ending" loading="lazy"><span>Invitation</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Packages</h2>
+    <p class="sub">Simple pricing. Every package includes your faces as 3D characters, original music and HD video.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Save the Date</h3>
+        <div class="price">₹999 <small>launch price</small></div>
+        <ul><li>1 animated scene · 10–12 sec</li><li>Your names + wedding date</li><li>1 revision</li><li>Delivered in 3 days</li></ul>
+        <a class="btn btn-ghost" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
+      </div>
+      <div class="plan pop">
+        <span class="tag">MOST LOVED</span>
+        <h3>Full Wedding Invite</h3>
+        <div class="price">₹2,499 <small>launch price</small></div>
+        <ul><li>4 scenes · about 25 sec</li><li>Save the date, haldi/mehendi, varmala, invitation</li><li>All events, dates &amp; venue</li><li>2 revisions</li><li>Delivered in 4 days</li></ul>
+        <a class="btn btn-gold" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
+      </div>
+      <div class="plan">
+        <h3>Love Story + Invite</h3>
+        <div class="price">₹4,999 <small>launch price</small></div>
+        <ul><li>6–8 scenes · about 40 sec</li><li>How you met → proposal → invite</li><li>Vertical + horizontal versions</li><li>3 revisions</li><li>Delivered in 6 days</li></ul>
+        <a class="btn btn-ghost" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
+      </div>
+    </div>
+    <div class="offer">🎉 <b>Launch offer:</b> the first 5 couples get <b>50% off</b> any package. In return, we just ask for a short review.</div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="sub">Five easy steps, all on chat.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><div><h4>Message us</h4><p>DM "INVITE" and pick your package.</p></div></div>
+      <div class="step"><div class="n">2</div><div><h4>Send photos</h4><p>2–3 clear, front-facing photos of each of you.</p></div></div>
+      <div class="step"><div class="n">3</div><div><h4>Share details</h4><p>Names, events, dates, venue and outfit colours.</p></div></div>
+      <div class="step"><div class="n">4</div><div><h4>Approve characters</h4><p>We send a still preview first. Video starts only after you approve.</p></div></div>
+      <div class="step"><div class="n">5</div><div><h4>Get your video</h4><p>HD MP4, ready to share on WhatsApp.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <div class="wrap">
+    <h2>Questions</h2>
+    <p class="sub">Anything else? Just message us.</p>
+    <div class="faq">
+      <details><summary>Will the characters really look like us?</summary><p>They're made from your photos as stylised 3D characters. You see a still preview first and we only animate after you approve it.</p></details>
+      <details><summary>How do I pay?</summary><p>50% advance by UPI to start, and the balance when your video is ready.</p></details>
+      <details><summary>Is the music copyright-free?</summary><p>Yes. It's original music, safe to share on WhatsApp, Instagram and YouTube.</p></details>
+      <details><summary>Can the text be in Hindi or another language?</summary><p>Yes. Send us the text in any language and we'll use it.</p></details>
+      <details><summary>Do you only do weddings?</summary><p>Weddings are our speciality, but we also make anniversary, birthday surprise and proposal videos. Ask us!</p></details>
+      <details><summary>We live outside India. Can we order?</summary><p>Of course. Everything happens online. You can also order through <a href="https://www.fiverr.com/somyabuilds/create-a-3d-animated-wedding-invitation-video-with-your-faces" target="_blank" rel="noopener">our Fiverr gig</a>.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Let's make your invite</h2>
+    <p>Slots are limited because every video is made by hand. Book yours today.</p>
+    <a class="btn btn-gold" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">💌 Message us on Instagram</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Made with love in Bengaluru · <a href="https://www.instagram.com/mayankkisomya/" target="_blank" rel="noopener">@mayankkisomya</a></div>
+</footer>
+
+<a class="btn btn-gold float" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">💌 Book your invite · from ₹999</a>
+
+<script>
+  const v = document.getElementById('vid'), b = document.getElementById('snd');
+  b.addEventListener('click', () => {
+    v.muted = !v.muted;
+    if (!v.muted) { v.currentTime = 0; v.play(); }
+    b.textContent = v.muted ? '🔇 Tap for sound' : '🔊 Sound on';
+  });
+</script>
+</body>
+</html>
