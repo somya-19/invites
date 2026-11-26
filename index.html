@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>3D Wedding Invite Videos Starring You | Somya &amp; Mayank Studio</title>
-<meta name="description" content="Personalised 3D animated wedding invitation videos where the bride and groom's own faces become the characters. Made in Bengaluru. From ₹999.">
-<meta property="og:title" content="Your Wedding Invite, Starring YOU 💍">
-<meta property="og:description" content="3D animated wedding invite videos made from your photos. Ready for WhatsApp. From ₹999.">
+<title>3D Animated Invite Videos Starring You | Somya &amp; Mayank Studio</title>
+<meta name="description" content="Personalised 3D animated invitation videos for weddings, birthdays, anniversaries, griha pravesh, baby showers and parties, with your own faces as the characters. Made in Bengaluru. From ₹999.">
+<meta property="og:title" content="Your Invite, Starring YOU 💌">
+<meta property="og:description" content="3D animated invite videos for weddings, birthdays, anniversaries and parties, made from your photos. Ready for WhatsApp. From ₹999.">
 <meta property="og:image" content="https://somya-19.github.io/invites/s3.jpg">
 <meta property="og:url" content="https://somya-19.github.io/invites/">
 <meta property="og:type" content="website">
@@ -65,6 +65,14 @@
   .feat .ic{font-size:28px}
   .feat h3{font-family:"Cormorant Garamond",serif;font-size:23px;color:var(--gold);margin:8px 0 4px}
   .feat p{font-size:14.5px;color:var(--muted)}
+
+  /* occasions */
+  .occ{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .oc{text-align:center;background:rgba(255,246,230,.05);border:1px solid rgba(255,210,120,.22);border-radius:20px;padding:20px 14px}
+  .oc .ic{font-size:34px}
+  .oc h3{font-family:"Cormorant Garamond",serif;font-size:22px;color:var(--gold);margin:6px 0 2px}
+  .oc p{font-size:13.5px;color:var(--muted)}
+  @media (max-width:860px){ .occ{grid-template-columns:1fr 1fr} }
 
   /* gallery */
   .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
@@ -144,14 +152,14 @@
 <header class="hero">
   <div class="wrap">
     <div>
-      <span class="eyebrow">💍 3D ANIMATED WEDDING INVITES · BENGALURU</span>
-      <h1>Your wedding invite, <span>starring you</span></h1>
-      <p class="lead">We turn your photos into 3D animated characters and create an invitation video your guests will actually watch and share.</p>
+      <span class="eyebrow">💌 3D ANIMATED INVITES · BENGALURU</span>
+      <h1>Your invite, <span>starring you</span></h1>
+      <p class="lead">Weddings, birthdays, anniversaries, griha pravesh, parties. We turn your photos into 3D animated characters and create an invitation video your guests will actually watch and share.</p>
       <div class="cta-row">
         <a class="btn btn-gold" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">💌 Book on Instagram</a>
         <a class="btn btn-ghost" href="#pricing">See prices</a>
       </div>
-      <p class="price-hint">From ₹999 · First 5 couples get 50% off</p>
+      <p class="price-hint">From ₹999 · First 5 customers get 50% off</p>
     </div>
     <div class="phone">
       <video id="vid" src="invite.mp4" poster="poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
@@ -163,10 +171,10 @@
 <section>
   <div class="wrap">
     <h2>Not a slideshow</h2>
-    <p class="sub">A real little movie of your wedding, made just for you.</p>
+    <p class="sub">A real little movie of your celebration, made just for you.</p>
     <div class="feats">
-      <div class="feat"><div class="ic">🧑‍🤝‍🧑</div><h3>Your faces</h3><p>You and your partner become 3D movie-style characters, made from your photos.</p></div>
-      <div class="feat"><div class="ic">🎬</div><h3>Real animation</h3><p>Falling petals, haldi fun, the varmala moment and a namaste ending.</p></div>
+      <div class="feat"><div class="ic">🧑‍🤝‍🧑</div><h3>Your faces</h3><p>You, your partner, your kids or your whole family become 3D movie-style characters, made from your photos.</p></div>
+      <div class="feat"><div class="ic">🎬</div><h3>Real animation</h3><p>Falling petals, cake cutting, balloons, a diya-lit doorway and a warm namaste ending.</p></div>
       <div class="feat"><div class="ic">🎵</div><h3>Original music</h3><p>Background music made for your video, with no copyright problems on WhatsApp or Instagram.</p></div>
       <div class="feat"><div class="ic">📲</div><h3>WhatsApp-ready</h3><p>Vertical HD video with your names, events, dates and venue, in English or Hindi.</p></div>
     </div>
@@ -175,10 +183,29 @@
 
 <div class="divider"></div>
 
+<section id="occasions">
+  <div class="wrap">
+    <h2>For every celebration</h2>
+    <p class="sub">If you're inviting people, we can animate it. Your family stars in every scene.</p>
+    <div class="occ">
+      <div class="oc"><div class="ic">💍</div><h3>Wedding</h3><p>Save the date, haldi, mehendi, sangeet, reception</p></div>
+      <div class="oc"><div class="ic">💞</div><h3>Engagement</h3><p>Roka, ring ceremony, sagai</p></div>
+      <div class="oc"><div class="ic">🎂</div><h3>Birthday</h3><p>Kids' parties, 1st birthday, milestone 30/40/50/60</p></div>
+      <div class="oc"><div class="ic">🥂</div><h3>Anniversary</h3><p>25th, 50th or a surprise for your partner</p></div>
+      <div class="oc"><div class="ic">🏡</div><h3>Griha Pravesh</h3><p>Housewarming and new-home pooja</p></div>
+      <div class="oc"><div class="ic">🍼</div><h3>Baby Shower</h3><p>Godh bharai, naming ceremony, naamkaran</p></div>
+      <div class="oc"><div class="ic">🪔</div><h3>Festivals</h3><p>Diwali parties, Ganesh pooja, Christmas, Eid get-togethers</p></div>
+      <div class="oc"><div class="ic">🎉</div><h3>Parties &amp; events</h3><p>Farewells, reunions, kitty parties, office celebrations</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <section id="samples">
   <div class="wrap">
-    <h2>Every event, animated</h2>
-    <p class="sub">Scenes from our sample invite. Your video uses your own faces, outfits and events.</p>
+    <h2>See a sample</h2>
+    <p class="sub">Scenes from our wedding invite sample. Your video uses your own faces, outfits, occasion and details.</p>
     <div class="gallery">
       <div class="shot"><img src="s1.jpg" alt="Save the date scene under a floral arch" loading="lazy"><span>Save the Date</span></div>
       <div class="shot"><img src="s2.jpg" alt="Haldi ceremony scene" loading="lazy"><span>Haldi</span></div>
@@ -196,26 +223,26 @@
     <p class="sub">Simple pricing. Every package includes your faces as 3D characters, original music and HD video.</p>
     <div class="plans">
       <div class="plan">
-        <h3>Save the Date</h3>
+        <h3>Quick Invite</h3>
         <div class="price">₹999 <small>launch price</small></div>
-        <ul><li>1 animated scene · 10–12 sec</li><li>Your names + wedding date</li><li>1 revision</li><li>Delivered in 3 days</li></ul>
+        <ul><li>1 animated scene · 10–12 sec</li><li>Save the date, birthday or party invite</li><li>Names, date &amp; venue</li><li>1 revision</li><li>Delivered in 3 days</li></ul>
         <a class="btn btn-ghost" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
       </div>
       <div class="plan pop">
         <span class="tag">MOST LOVED</span>
-        <h3>Full Wedding Invite</h3>
+        <h3>Full Invite</h3>
         <div class="price">₹2,499 <small>launch price</small></div>
-        <ul><li>4 scenes · about 25 sec</li><li>Save the date, haldi/mehendi, varmala, invitation</li><li>All events, dates &amp; venue</li><li>2 revisions</li><li>Delivered in 4 days</li></ul>
+        <ul><li>4 scenes · about 25 sec</li><li>e.g. haldi, mehendi, varmala, invitation, or cake, games, family, party</li><li>All events, dates &amp; venue</li><li>2 revisions</li><li>Delivered in 4 days</li></ul>
         <a class="btn btn-gold" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
       </div>
       <div class="plan">
-        <h3>Love Story + Invite</h3>
+        <h3>Story + Invite</h3>
         <div class="price">₹4,999 <small>launch price</small></div>
-        <ul><li>6–8 scenes · about 40 sec</li><li>How you met → proposal → invite</li><li>Vertical + horizontal versions</li><li>3 revisions</li><li>Delivered in 6 days</li></ul>
+        <ul><li>6–8 scenes · about 40 sec</li><li>Your story first: how you met, 25 years together, baby's first year…</li><li>Then the full invite</li><li>Vertical + horizontal versions</li><li>3 revisions</li><li>Delivered in 6 days</li></ul>
         <a class="btn btn-ghost" href="https://ig.me/m/mayankkisomya" target="_blank" rel="noopener">Choose</a>
       </div>
     </div>
-    <div class="offer">🎉 <b>Launch offer:</b> the first 5 couples get <b>50% off</b> any package. In return, we just ask for a short review.</div>
+    <div class="offer">🎉 <b>Launch offer:</b> the first 5 customers get <b>50% off</b> any package. In return, we just ask for a short review.</div>
   </div>
 </section>
 
@@ -227,8 +254,8 @@
     <p class="sub">Five easy steps, all on chat.</p>
     <div class="steps">
       <div class="step"><div class="n">1</div><div><h4>Message us</h4><p>DM "INVITE" and pick your package.</p></div></div>
-      <div class="step"><div class="n">2</div><div><h4>Send photos</h4><p>2–3 clear, front-facing photos of each of you.</p></div></div>
-      <div class="step"><div class="n">3</div><div><h4>Share details</h4><p>Names, events, dates, venue and outfit colours.</p></div></div>
+      <div class="step"><div class="n">2</div><div><h4>Send photos</h4><p>2–3 clear, front-facing photos of each person in the video.</p></div></div>
+      <div class="step"><div class="n">3</div><div><h4>Share details</h4><p>Occasion, names, dates, venue, theme and outfit colours.</p></div></div>
       <div class="step"><div class="n">4</div><div><h4>Approve characters</h4><p>We send a still preview first. Video starts only after you approve.</p></div></div>
       <div class="step"><div class="n">5</div><div><h4>Get your video</h4><p>HD MP4, ready to share on WhatsApp.</p></div></div>
     </div>
@@ -246,7 +273,8 @@
       <details><summary>How do I pay?</summary><p>50% advance by UPI to start, and the balance when your video is ready.</p></details>
       <details><summary>Is the music copyright-free?</summary><p>Yes. It's original music, safe to share on WhatsApp, Instagram and YouTube.</p></details>
       <details><summary>Can the text be in Hindi or another language?</summary><p>Yes. Send us the text in any language and we'll use it.</p></details>
-      <details><summary>Do you only do weddings?</summary><p>Weddings are our speciality, but we also make anniversary, birthday surprise and proposal videos. Ask us!</p></details>
+      <details><summary>Which occasions do you make invites for?</summary><p>Any celebration: weddings, engagements, birthdays, anniversaries, griha pravesh, baby showers, naming ceremonies, festival parties and office events. We also make surprise videos, like anniversary gifts or proposals. If you can invite people to it, we can animate it.</p></details>
+      <details><summary>Can kids or the whole family be in the video?</summary><p>Yes. Send clear photos of everyone you want in it: the birthday child, grandparents, the whole family. Bigger groups may need the Full Invite package.</p></details>
       <details><summary>We live outside India. Can we order?</summary><p>Of course. Everything happens online. You can also order through <a href="https://www.fiverr.com/somyabuilds/create-a-3d-animated-wedding-invitation-video-with-your-faces" target="_blank" rel="noopener">our Fiverr gig</a>.</p></details>
     </div>
   </div>
